@@ -47,12 +47,13 @@ nav {
 
 .jumbotron button {
   background-color: #3eb2fd;
-  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+  background-image: linear-gradient(1deg, #6168f7, #30aafc 99%);
   background-size: calc(100% + 20px) calc(100% + 20px);
-  border-radius: 80px;
+  border-radius: 70px;
   border-width: 0;
   box-sizing: border-box;
-  color: black;
+  color: white;
+  width: 250px;
   cursor: pointer;
   transition: background-color 0.2s, background-position 0.2s;
   touch-action: manipulation;
@@ -266,7 +267,7 @@ nav {
   color: #ffffff;
 }
 
-.footer .pembayaran {
+.footer .img-pembayaran {
   width: 250px;
   margin-bottom: 20px;
 }
@@ -326,5 +327,21 @@ nav {
   }
   .banner {
     width: 100%;
+  }
+
+  .footer-2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    text-align: center;
+    margin: auto !important;
+  }
+
+  .footer {
+    text-align: center;
+    margin: auto !important;
   }
 }
